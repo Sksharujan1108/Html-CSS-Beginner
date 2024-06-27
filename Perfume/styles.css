@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* h1, ul, li {
+    display: inline;
+} */
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    color: gray;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif; /* Adding font style */
+    text-decoration: none;
+    list-style: none; /* remove the bullet */
+}
+
+li:hover {
+    color: white
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+}
+
+.searchBar {
+    padding: 50px;
+    text-align: center;
+    /* background-color: pink; */
+}
+
+.products {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.box {
+    width: 200px;
+    /* background-color: yellow; */
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.box img {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+}
+
+.box:hover {
+    /* background-color: yellow; */
+}
+
+.about {
+    text-align: center;
+    /* background-color: aqua; */
+    margin-top: 55px;
+}
+
+.about p {
+    padding-Top: 15px;
+    line-height: 1.5; /* Increase line height */
+}
+
+.contact {
+    margin-top: 40px;
+    text-align: center;
+    background-color: gray;
+}
+
+.contact h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact p {
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+
